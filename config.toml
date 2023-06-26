@@ -1,0 +1,164 @@
+baseURL = "/"
+title = "WCH-ID"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+paginate = "7"
+theme = "spectral"
+
+[params]
+fancyTitle = "WCH-ID" # title for frontpage, may include image
+copyright = "ROAR"
+description = 'karena semua pekerja, pahlawan bagi keluarga, </br>gimana ya jelasinnya langsung scroll aja<br/>dimulai sejak <a href="http://instagram.com/wch_id">mulai</a>.'
+startbuttonText = "Jangan diklik"
+startbuttonLink = "#"
+body_is_markdown = true
+#custom_css = "foo.css"
+#images = ["path_to_social_image_for_link_previews.jpg"]
+
+[[params.menu.main]]
+url = '/'
+title = "Home"
+
+
+[[params.menu.main]]
+url = '/who-we-are/'
+title =  'Who We Are'
+
+[[params.menu.main]]
+url = '/blog/'
+title =  'Blog'
+
+[[params.menu.main]]
+url = '/contact/'
+title = 'Contact Us'
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[params.one]
+enable = false
+
+title = 'Arcu aliquet vel lobortis ata nisl<br />eget augue amet aliquet nisl cep donec'
+body = '''
+Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend  
+fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
+'''
+
+[[params.one.icon]]
+icon = "fa-gem"
+style = "1"
+label = "Lorem"
+
+[[params.one.icon]]
+icon = "fa-heart"
+style = "2"
+label = "Ipsum"
+
+[[params.one.icon]]
+icon = "solid fa-code"
+style = "3"
+label = "Dolor"
+
+[params.two]
+enable = false
+
+[[params.two.section]]
+img = "img/pic01.jpg"
+title = 'Magna primis lobortis<br />sed ullamcorper'
+body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+
+[[params.two.section]]
+img = "img/pic02.jpg"
+title = 'Tortor dolore feugiat<br />elementum magna'
+body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+
+[[params.two.section]]
+img = "img/pic03.jpg"
+title = 'Magna primis lobortis<br />sed ullamcorper'
+body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+
+[params.three]
+enable = true
+
+title = 'ini isinya manifesto'
+body = '''
+deskripsi manifesto, yang penting ada. tapi kalau tulisannya lebih panjang lebih kelihatan bagus
+'''
+
+[[params.three.feature]]
+icon = "fa-paper-plane"
+title = "bayarin dulu ya wok"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "solid fa-laptop"
+title = "laptop terussss"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "solid fa-code"
+title = "config untuk makan"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "solid fa-headphones-alt"
+title = "wacana podcast"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "fa-heart"
+title = "rispek abangku"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[[params.three.feature]]
+icon = "fa-flag"
+title = "red/green flag"
+body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+
+[params.cta]
+enable = true
+
+title = "udah mau sampe bawah"
+body = "ayo scroll lagi ke atas."
+
+[[params.cta.link]]
+href = "#"
+text = "balik ke atas"
+special = true
+
+[[params.cta.link]]
+href = "#"
+text = "link rahasia"
+special = false
+
+[params.contact]
+enable = true
+
+title = "bacot form"
+body = "silakan komentar apa aja, belum tentu dibales juga"
+phone = "+49 (0) 030 000 000"
+address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
+email = "nospam@example.com"
+subject = "New Submission!"
+formspree_form_id = "example_invalid"
+
+[params.social]
+twitter = ""
+mastodon = ""
+github = ""
+facebook = ""
+youtube = ""
+instagram = ""
+dribble = ""
+
+# language specific options
+
+[languages.en]
+weight = 0
+languageName = "English"
+
+[languages.de]
+weight = 10
+languageName = "Deutsch"
